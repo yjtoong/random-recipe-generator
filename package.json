@@ -13,7 +13,7 @@
     "server": "nodemon app.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install axios && npm install bootstrap && npm install react && npm install react-dom && npm install react-scripts && npm install reactstrap && npm run build"
   },
   "author": "yjtoong",
   "license": "ISC",
